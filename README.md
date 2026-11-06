@@ -4,6 +4,24 @@
 
 Author's Hand is an autonomous research agent that knows *your* research (ORCID, ResearchGate, Google Scholar) and a workspace that turns the papers you select into material for every section of your own paper. **Every statement can be traced to the passage, page and DOI it came from**, and what was extracted from a paper is always labelled separately from AI-written wording and from candidate ideas.
 
+**Code:** https://github.com/KAMESWARIJADA/Authors-Hand · **Quick start:** `pip install -r requirements.txt` → `streamlit run app.py` · **Windows app:** `AuthorsHand-Windows.zip`
+
+## My contribution — individual project
+
+**Dr. Kameswari Jada** · Assistant Professor, Data Sciences, Siva Sivani Institute of Management (SSIM), Hyderabad
+I carried out this capstone alone, with no team members.
+
+| # | What I did | Details |
+|---|---|---|
+| 1 | **Problem & vision** | Chose Option 5 and set the goal: a researcher-centred agent that knows the author's own work through ORCID, ResearchGate and Google Scholar, not a generic summariser. |
+| 2 | **Requirements** | Specified every feature: 5-paper summaries with an overall summary, full citations in all styles, writing tabs (introduction → future study), cheatsheets, projects & folders, login, the name *Author's Hand*, and Windows / Play Store delivery. |
+| 3 | **Design review** | Compared an external AI review (ChatGPT) with the IIT Guwahati brief and chose the priorities: evidence tracing, extracted-vs-AI labels, systematic review with PRISMA, privacy and honest evaluation. |
+| 4 | **Testing with my real data** | Tested every version with my own ORCID (0000-0002-9782-3067) and Google Scholar profile; found the missing OpenAlex citations, ORCID–Scholar mismatches, sample numbers on my profile and empty pages. Each was fixed and re-tested. |
+| 5 | **Quality control** | Compared successive versions (ScholarPilot → Author's Hand) and required that no earlier strength was lost: dashboard, library, studio, reader, citation map, profile graphs, agent. |
+| 6 | **Deployment & delivery** | Ran the Windows desktop app on my PC, set up and connected this GitHub repository, prepared the report, notebook and submission. |
+
+*Tools: an AI coding assistant (Claude) was used to write code and text under my direction; every feature, test and decision was mine. Scores reported come from a synthetic test corpus.*
+
 ![architecture](docs/architecture_diagram.png)
 
 ## What is new in version 3
@@ -41,7 +59,6 @@ Author's Hand is an autonomous research agent that knows *your* research (ORCID,
 | Instructions | this `README.md` |
 
 **Course link:** prompting and structured output (summaries, Writing Studio) · LangChain chat-model and tool abstractions · embeddings, retrieval and RAG (paper chat, grounding) · autonomous agents with planning and tool use · evaluating generative output (ROUGE, baselines, faithfulness, human ratings) · deployment.
-**Personal contribution (Dr. Kameswari Jada):** **Problem & requirements:** Chose Option 5 and defined the features: ORCID / ResearchGate / Google Scholar linking, multi-paper summaries, section-wise writing tabs, full citations in all styles, cheatsheets, projects & folders, login, the app name and a Windows app. **Design decisions:** Reviewed the external (ChatGPT) review and chose what to adopt: evidence tracing, extracted-vs-AI labels, a systematic-review workflow, privacy controls and honest evaluation. **Testing on my own profile:** Tested the app with my own ORCID and Google Scholar profiles; found and got fixed the missing OpenAlex citations (no author record linked to my ORCID), the ORCID–Scholar mismatch, sample numbers on my profile and empty pages for a new account. **Results & limitations:** Judged the outputs against my own papers; the reported scores come from a small synthetic corpus, so a real-paper study with human ratings is the next step. **AI-assistance disclosure:** code and text were drafted with an AI assistant (Claude), then reviewed, tested and refined by me.
 
 ## Feature status — how each part works and how it was tested
 
