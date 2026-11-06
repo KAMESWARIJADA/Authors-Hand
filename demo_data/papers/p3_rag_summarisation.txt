@@ -1,0 +1,33 @@
+Retrieval-Augmented Generation for Faithful Summarisation of Scientific Literature
+L. Fernandes, M. Gupta
+[SYNTHETIC DEMONSTRATION PAPER — created for the Author's Hand capstone; not a real publication]
+
+Abstract
+Large language models can summarise scientific papers fluently but frequently hallucinate numbers and claims. We propose SecRAG, a section-aware retrieval-augmented summarisation pipeline that retrieves evidence passages for each summary field before generation. On a benchmark of 1,200 computer science and management papers, SecRAG improved factual consistency by 22 percent over direct prompting while maintaining ROUGE-L. Human evaluators preferred SecRAG summaries in 68 percent of pairwise comparisons. We release an evaluation protocol for evidence-grounded summaries.
+
+1. Introduction
+Researchers face an overwhelming volume of new publications, with more than five million scholarly articles published each year. Automatic summarisation could help, but the problem of hallucination limits trust in LLM-generated summaries. Existing summarisation benchmarks mostly measure lexical overlap and ignore faithfulness to the source. This paper aims to design a summarisation method that is both concise and verifiably faithful.
+
+2. Related Work
+Abstractive summarisation with transformer models such as BART and PEGASUS improved fluency on arXiv and PubMed datasets. Retrieval-augmented generation grounds model output in retrieved passages and reduces hallucination in question answering. Factual consistency metrics such as QAGS and SummaC estimate whether summary statements are entailed by the source.
+
+3. Proposed Method
+SecRAG first segments a paper into canonical sections such as introduction, methods and results. For each summary field, a retriever selects the most relevant passages using hybrid lexical and dense search. The generator then writes the field conditioned only on the retrieved evidence. Finally, a verification step checks every generated sentence against its evidence and removes unsupported statements.
+
+4. Dataset
+We built a benchmark of 1,200 open-access papers from arXiv and management journals, each paired with an author-written structured abstract. The benchmark covers machine learning, information systems and organisational behaviour.
+
+5. Experiments
+SecRAG improved factual consistency measured by SummaC by 22 percent compared with direct prompting. ROUGE-L remained comparable at 0.41 versus 0.42. The verification step alone removed 74 percent of injected false claims. In blind pairwise comparisons, 18 domain experts preferred SecRAG summaries in 68 percent of cases. Latency increased by 1.6 times because of the additional retrieval and verification calls.
+
+6. Discussion
+Grounding each summary field in retrieved evidence trades a modest latency cost for a large gain in trustworthiness. Structured summaries with evidence links also make it easier for researchers to verify claims quickly.
+
+7. Limitations
+The benchmark is limited to English papers, and figures and tables were not parsed. Automatic factuality metrics only approximate human judgement.
+
+8. Future Work
+Future work could extend SecRAG to multimodal content such as tables and charts, support multilingual papers, and personalise summaries to the reader's research profile.
+
+9. Conclusion
+Section-aware retrieval and verification make LLM summaries of scientific papers substantially more faithful.

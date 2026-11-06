@@ -1,0 +1,160 @@
+{
+  "_note": "SYNTHETIC demonstration corpus created for the capstone. Reference summaries were written by hand for evaluation. Not real publications.",
+  "papers": [
+    {
+      "file": "p1_attrition_xgb.txt",
+      "id": "demo:p1",
+      "title": "Predicting Voluntary Employee Attrition with Explainable Gradient Boosting: Evidence from Indian IT Services",
+      "authors": [
+        "R. Menon",
+        "S. Iyer",
+        "A. Demo"
+      ],
+      "year": 2025,
+      "venue": "Journal of Business Research",
+      "doi": "10.0000/demo.2025.001",
+      "reference_summary": "Using HR records of 18,420 employees from three Indian IT firms, the study predicts voluntary attrition six months ahead. XGBoost outperformed random forest and logistic regression with AUC 0.89 and recall 0.81. SHAP showed months since last promotion, commute distance and manager changes were the strongest drivers; employees without promotion for over 30 months were 2.4 times more likely to leave. Limitations are the three-firm sample and missing informal factors; future work should test other sectors and add survey text.",
+      "volume": "172",
+      "issue": "3",
+      "pages": "114-129",
+      "publisher": "Elsevier",
+      "type": "journal-article",
+      "citations": 14,
+      "pdf": "p1_attrition_xgb.pdf"
+    },
+    {
+      "file": "p2_genai_banking.txt",
+      "id": "demo:p2",
+      "title": "Generative AI Copilots and Analyst Productivity in Retail Banking: A Field Experiment",
+      "authors": [
+        "K. Rao",
+        "A. Demo",
+        "P. Sharma"
+      ],
+      "year": 2026,
+      "venue": "Information Systems Research",
+      "doi": "10.0000/demo.2026.002",
+      "reference_summary": "A twelve-week randomised field experiment with 412 analysts at an Indian bank tested an LLM copilot for report drafting and SQL. The copilot cut task time by 31 percent and raised quality by 9 percent, with junior analysts gaining most (43 percent faster). Senior analysts accepted 27 percent of seeded incorrect suggestions, indicating over-reliance. Limitations include a single bank and short horizon; future research should study long-run skill effects and interfaces that reduce over-reliance.",
+      "volume": "37",
+      "issue": "2",
+      "pages": "455-478",
+      "publisher": "INFORMS",
+      "type": "journal-article",
+      "citations": 6,
+      "pdf": "p2_genai_banking.pdf"
+    },
+    {
+      "file": "p3_rag_summarisation.txt",
+      "id": "demo:p3",
+      "title": "Retrieval-Augmented Generation for Faithful Summarisation of Scientific Literature",
+      "authors": [
+        "L. Fernandes",
+        "M. Gupta"
+      ],
+      "year": 2025,
+      "venue": "Information Processing & Management",
+      "doi": "10.0000/demo.2025.003",
+      "reference_summary": "The paper proposes SecRAG, a section-aware retrieval-augmented pipeline that retrieves evidence for each summary field and verifies generated sentences. On 1,200 papers it improved factual consistency by 22 percent over direct prompting with similar ROUGE-L, removed 74 percent of injected false claims, and was preferred by experts in 68 percent of comparisons, at 1.6 times the latency. Limitations are English-only text and unparsed tables; future work includes multimodal, multilingual and personalised summaries.",
+      "volume": "62",
+      "issue": "4",
+      "pages": "103712",
+      "publisher": "",
+      "type": "journal-article",
+      "citations": 9,
+      "pdf": "p3_rag_summarisation.pdf"
+    },
+    {
+      "file": "p4_learning_analytics.txt",
+      "id": "demo:p4",
+      "title": "Learning Analytics for Early Identification of At-Risk Postgraduate Management Students",
+      "authors": [
+        "N. Reddy",
+        "A. Demo"
+      ],
+      "year": 2024,
+      "venue": "Computers & Education",
+      "doi": "10.0000/demo.2024.004",
+      "reference_summary": "Using LMS activity, attendance and assessment data from 1,146 PGDM students, the study builds an early-warning model with random forest and survival analysis. By week five it identified at-risk students with F1 0.77, rising to 0.84 by week eight; late submissions and falling attendance were key predictors. Model-triggered mentoring reduced course failure by 19 percent in a non-randomised pilot. Future research should run randomised trials across institutions.",
+      "volume": "208",
+      "issue": "",
+      "pages": "105031",
+      "publisher": "Elsevier",
+      "type": "journal-article",
+      "citations": 21,
+      "pdf": "p4_learning_analytics.pdf"
+    },
+    {
+      "file": "p5_credit_scoring.txt",
+      "id": "demo:p5",
+      "title": "Explainable Credit Scoring for Thin-File Borrowers Using Alternative Data",
+      "authors": [
+        "V. Krishnan",
+        "A. Demo",
+        "T. Bose"
+      ],
+      "year": 2024,
+      "venue": "Finance Research Letters",
+      "doi": "10.0000/demo.2024.005",
+      "reference_summary": "Using 52,300 NBFC loan applications, the study compares a bureau-only scorecard with LightGBM using alternative data such as utility payments and UPI patterns. Gini rose from 0.41 to 0.58 and 14 percent more applicants could be approved at the same 4 percent default rate. Counterfactual explanations met regulatory needs and were understood by 82 percent of applicants. Limitations: one lender and no downturn period; future work should test stress stability and regional fairness.",
+      "volume": "61",
+      "issue": "",
+      "pages": "104998",
+      "publisher": "Elsevier",
+      "type": "journal-article",
+      "citations": 33,
+      "pdf": "p5_credit_scoring.pdf"
+    }
+  ],
+  "qa": [
+    {
+      "question": "What AUC did XGBoost achieve for attrition prediction?",
+      "paper": "Predicting Voluntary Employee Attrition with Explainable Gradient Boosting: Evidence from Indian IT Services",
+      "answer_contains": "0.89"
+    },
+    {
+      "question": "How many analysts took part in the copilot experiment?",
+      "paper": "Generative AI Copilots and Analyst Productivity in Retail Banking: A Field Experiment",
+      "answer_contains": "412"
+    },
+    {
+      "question": "By how much did the copilot reduce task completion time?",
+      "paper": "Generative AI Copilots and Analyst Productivity in Retail Banking: A Field Experiment",
+      "answer_contains": "31 percent"
+    },
+    {
+      "question": "What share of injected false claims did the verification step remove?",
+      "paper": "Retrieval-Augmented Generation for Faithful Summarisation of Scientific Literature",
+      "answer_contains": "74 percent"
+    },
+    {
+      "question": "What F1 score did the at-risk student model reach by week five?",
+      "paper": "Learning Analytics for Early Identification of At-Risk Postgraduate Management Students",
+      "answer_contains": "0.77"
+    },
+    {
+      "question": "How much did model-triggered mentoring reduce course failure?",
+      "paper": "Learning Analytics for Early Identification of At-Risk Postgraduate Management Students",
+      "answer_contains": "19 percent"
+    },
+    {
+      "question": "What Gini coefficient did the alternative data model achieve?",
+      "paper": "Explainable Credit Scoring for Thin-File Borrowers Using Alternative Data",
+      "answer_contains": "0.58"
+    },
+    {
+      "question": "Which alternative data features were most important for credit scoring?",
+      "paper": "Explainable Credit Scoring for Thin-File Borrowers Using Alternative Data",
+      "answer_contains": "Utility payment regularity"
+    },
+    {
+      "question": "What was the strongest driver of employee attrition according to SHAP?",
+      "paper": "Predicting Voluntary Employee Attrition with Explainable Gradient Boosting: Evidence from Indian IT Services",
+      "answer_contains": "months since last promotion"
+    },
+    {
+      "question": "How many papers were in the SecRAG benchmark?",
+      "paper": "Retrieval-Augmented Generation for Faithful Summarisation of Scientific Literature",
+      "answer_contains": "1,200"
+    }
+  ]
+}

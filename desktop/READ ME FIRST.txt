@@ -1,0 +1,36 @@
+Author's Hand for Windows — research agent & writing studio
+==========================================================
+
+INSTALL (one time)
+1. Right-click AuthorsHand-Windows.zip  ->  Extract All...  ->  choose a place you keep
+   (for example Documents\AuthorsHand)  ->  Extract.
+   Do NOT run it from inside the zip.
+2. Open the extracted "AuthorsHand" folder and double-click  AuthorsHand.exe
+3. If Windows shows "Windows protected your PC":  click  More info  ->  Run anyway.
+   (The app is not code-signed by a commercial certificate; this message is normal.)
+4. First start only: a setup window installs a private copy of Python and the research
+   libraries (about 250 MB, 2-6 minutes, needs internet). Nothing is installed system-wide
+   and no administrator rights are needed.
+5. Author's Hand opens in its own window. An "Author's Hand" shortcut is added to your Desktop
+   and Start menu - use it next time (starts in a few seconds).
+
+CLOSE
+Close the window, or press  "Close Author's Hand"  at the bottom of the left sidebar.
+
+WHERE YOUR WORK IS SAVED
+Documents\AuthorsHand\workspace.db  (projects, folders, articles, summaries).
+Back up this file to keep your library.
+
+IF SOMETHING GOES WRONG
+- Setup stopped: check the internet connection and press Retry in the setup window.
+- Still stuck: double-click  "Repair AuthorsHand.cmd"  (re-installs the private Python).
+- Log file: %LOCALAPPDATA%\AuthorsHand\launcher.log
+
+UNINSTALL
+Delete the AuthorsHand folder, the Desktop/Start-menu shortcuts and the folder
+%LOCALAPPDATA%\AuthorsHand   (your library in Documents\AuthorsHand is kept unless you delete it).
+
+FIRST TOUR (no internet or key needed)
+Sidebar -> Data mode: Demo (offline). Then Dashboard -> Refresh now; Library & folders ->
+tick 5 papers -> Open in Writing Studio; walk through the tabs; References -> change style.
+For your own research choose Data mode: Live (internet) and enter your e-mail and ORCID.

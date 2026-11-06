@@ -1,0 +1,18 @@
+{
+  "name": "authorshand-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Android (and iOS) wrapper that opens the deployed Author's Hand web app",
+  "scripts": {
+    "add:android": "npx cap add android",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0"
+  }
+}

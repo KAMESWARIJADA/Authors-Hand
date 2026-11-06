@@ -1,0 +1,33 @@
+Generative AI Copilots and Analyst Productivity in Retail Banking: A Field Experiment
+K. Rao, A. Demo, P. Sharma
+[SYNTHETIC DEMONSTRATION PAPER — created for the Author's Hand capstone; not a real publication]
+
+Abstract
+Banks are rapidly deploying generative AI copilots, yet causal evidence on their productivity effects remains scarce. We report a randomised field experiment with 412 credit and product analysts at an Indian private-sector bank. Analysts in the treatment group received an LLM-based copilot for report drafting and SQL generation for twelve weeks. The copilot reduced average task completion time by 31 percent and increased output quality scores by 9 percent. Gains were largest for junior analysts, while senior analysts showed signs of over-reliance on incorrect suggestions. We discuss governance implications for responsible adoption.
+
+1. Introduction
+Generative AI tools promise large efficiency gains in knowledge work. However, most evidence comes from software development and customer support, and little is known about regulated settings such as banking. A further challenge is over-reliance, where users accept incorrect AI output without verification. This paper examines whether a generative AI copilot improves analyst productivity and quality, and for whom the benefits are largest.
+
+2. Related Work
+Experiments in customer service and consulting report productivity gains between 14 and 40 percent. Studies on automation bias show that people often over-trust algorithmic advice, especially under time pressure.
+
+3. Research Design
+We conducted a twelve-week randomised controlled trial. Analysts were randomly assigned to a treatment group with copilot access or a control group with standard tools. The copilot used a large language model with retrieval over internal policy documents. We estimated treatment effects using difference-in-differences regression with analyst and week fixed effects. Over-reliance was measured by the share of seeded incorrect suggestions that were accepted without edits.
+
+4. Data
+The sample consists of 412 analysts, of whom 206 were in the treatment group. We recorded 9,860 completed tasks with timestamps and blind quality ratings by two senior reviewers. Inter-rater reliability was high with a Cohen's kappa of 0.82.
+
+5. Results
+The copilot reduced task completion time by 31 percent, significant at the one percent level. Quality scores improved by 9 percent on average. Junior analysts with less than three years of experience gained 43 percent in speed, compared with 18 percent for senior analysts. However, senior analysts accepted 27 percent of seeded incorrect suggestions, compared with 15 percent for junior analysts. Benefits persisted across all twelve weeks with no sign of decay.
+
+6. Discussion
+Generative AI copilots act as a skill equaliser in analytical banking work. The surprising over-reliance among senior staff suggests that experience can create overconfidence in AI-assisted workflows. Banks should combine copilots with verification checkpoints and training on AI limitations.
+
+7. Limitations
+The experiment was conducted in a single bank, and the twelve-week horizon cannot capture long-term skill erosion. Quality was assessed by internal reviewers who may share organisational biases.
+
+8. Future Research
+Future studies should examine long-run effects on analyst learning, replicate the design in public-sector banks, and test interface designs that reduce over-reliance.
+
+9. Conclusion
+A generative AI copilot substantially improved analyst productivity, but responsible deployment requires safeguards against over-reliance.

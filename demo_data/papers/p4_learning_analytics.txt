@@ -1,0 +1,33 @@
+Learning Analytics for Early Identification of At-Risk Postgraduate Management Students
+N. Reddy, A. Demo
+[SYNTHETIC DEMONSTRATION PAPER — created for the Author's Hand capstone; not a real publication]
+
+Abstract
+Business schools increasingly collect learning management system data, but few use it to support struggling students early. This study builds an early-warning model for postgraduate management students using LMS activity, attendance and continuous assessment marks. Data from 1,146 PGDM students across four cohorts were analysed with random forest and survival analysis. By week five of a trimester the model identified at-risk students with an F1 score of 0.77. Mentor interventions triggered by the model reduced course failure by 19 percent in a pilot cohort.
+
+1. Introduction
+Student failure in postgraduate management programmes carries academic and financial costs. However, mentors usually learn about struggling students only after end-term examinations. Learning analytics has been widely studied in undergraduate and online settings, but there is limited evidence from Indian postgraduate management education. The purpose of this study is to examine how early at-risk students can be identified and whether model-triggered mentoring improves outcomes.
+
+2. Literature Review
+Earlier work links LMS engagement to academic performance. Early-warning systems such as Course Signals reported improved retention, although later replications questioned the effect sizes.
+
+3. Methodology
+We trained a random forest classifier to predict course failure using weekly features. A Cox proportional hazards model estimated the time until a student disengaged. The model was retrained each week of the trimester to evaluate how early reliable predictions were possible. In a pilot cohort, mentors received weekly risk lists and held structured mentoring conversations with flagged students.
+
+4. Data
+The dataset includes 1,146 PGDM students from four cohorts between 2021 and 2024. Features include LMS logins, resource views, assignment submission timing, attendance and continuous internal assessment marks. The overall course failure rate was 8.3 percent.
+
+5. Findings
+The random forest model reached an F1 score of 0.77 by week five and 0.84 by week eight. Late assignment submission and declining attendance were the strongest predictors of failure. The survival analysis showed that students who missed two consecutive assignment deadlines were 3.1 times more likely to disengage. In the pilot cohort, course failure fell by 19 percent compared with the previous cohort.
+
+6. Discussion
+Simple behavioural signals available early in the trimester are sufficient for useful predictions. Combining predictions with human mentoring appears more effective than automated alerts alone.
+
+7. Limitations
+The pilot intervention was not randomised, so the reduction in failure may partly reflect cohort differences. The study used data from a single institution.
+
+8. Future Research
+Future research should run randomised trials of mentoring interventions, include multiple institutions, and examine student perceptions of being flagged by algorithms.
+
+9. Conclusion
+Learning analytics can identify at-risk PGDM students early enough for mentors to act.

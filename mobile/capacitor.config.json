@@ -1,0 +1,18 @@
+{
+  "appId": "app.authorshand.research",
+  "appName": "Author's Hand",
+  "webDir": "www",
+  "server": {
+    "url": "https://YOUR-APP.streamlit.app",
+    "cleartext": false,
+    "allowNavigation": [
+      "*.streamlit.app",
+      "*.onrender.com",
+      "orcid.org",
+      "*.orcid.org"
+    ]
+  },
+  "android": {
+    "backgroundColor": "#0B1F33"
+  }
+}

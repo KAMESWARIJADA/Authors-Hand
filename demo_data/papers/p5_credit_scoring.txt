@@ -1,0 +1,33 @@
+Explainable Credit Scoring for Thin-File Borrowers Using Alternative Data
+V. Krishnan, A. Demo, T. Bose
+[SYNTHETIC DEMONSTRATION PAPER — created for the Author's Hand capstone; not a real publication]
+
+Abstract
+Millions of Indian borrowers lack sufficient credit history to obtain formal loans. This study evaluates whether alternative data such as utility payments and digital transaction patterns can improve credit scoring for thin-file borrowers while remaining explainable. Using 52,300 loan applications from a non-banking financial company, we compare a bureau-only scorecard with a LightGBM model that adds alternative data. The alternative data model raised the Gini coefficient from 0.41 to 0.58 and could approve 14 percent more applicants at the same default rate. Counterfactual explanations were generated to satisfy regulatory requirements for adverse action reasons.
+
+1. Introduction
+Financial inclusion remains a policy priority in India. However, thin-file borrowers are often rejected because traditional scorecards cannot assess them. Machine learning models using alternative data may help, but regulators require that credit decisions be explainable. This paper investigates whether alternative data improves predictive power for thin-file borrowers and how decisions can be explained to applicants.
+
+2. Literature Review
+Studies from fintech lending show that digital footprints predict default. Concerns remain about fairness, privacy and the opacity of complex models in credit decisions.
+
+3. Methodology
+We built a logistic regression scorecard on bureau variables as the baseline. A LightGBM model was then trained on bureau variables plus alternative data features. Performance was evaluated using the Gini coefficient and the Kolmogorov-Smirnov statistic on an out-of-time sample. Counterfactual explanations identified the smallest feature changes that would turn a rejection into an approval.
+
+4. Data
+The data comprise 52,300 loan applications from 2020 to 2023, of which 61 percent were thin-file applicants with fewer than two credit trade lines. Alternative data included utility bill payments, mobile recharge regularity and UPI transaction patterns, collected with applicant consent.
+
+5. Results
+The LightGBM model with alternative data achieved a Gini coefficient of 0.58 compared with 0.41 for the bureau-only scorecard. The KS statistic improved from 0.31 to 0.44. At a constant default rate of 4 percent, the lender could approve 14 percent more applicants. Utility payment regularity and stable UPI inflows were the most important alternative features. Counterfactual explanations were understandable to 82 percent of surveyed applicants.
+
+6. Discussion
+Alternative data can expand access to credit without increasing risk, provided that models are explainable and consent-based. Lenders should document explanation methods to meet regulatory expectations.
+
+7. Limitations
+The study used data from one lender, and the out-of-time period did not include a severe economic downturn. Fairness across regions was not examined in depth.
+
+8. Future Work
+Future work should assess model stability during economic stress, evaluate fairness across regions and income groups, and study borrower responses to counterfactual explanations.
+
+9. Conclusion
+Explainable machine learning with alternative data can responsibly improve credit access for thin-file borrowers.

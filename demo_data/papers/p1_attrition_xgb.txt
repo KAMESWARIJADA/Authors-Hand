@@ -1,0 +1,33 @@
+Predicting Voluntary Employee Attrition with Explainable Gradient Boosting: Evidence from Indian IT Services
+R. Menon, S. Iyer, A. Demo
+[SYNTHETIC DEMONSTRATION PAPER — created for the Author's Hand capstone; not a real publication]
+
+Abstract
+Voluntary attrition costs Indian IT services firms an estimated 1.5 to 2 times an employee's annual salary per exit. This study develops an explainable machine learning model that predicts voluntary attrition six months ahead. Using HR records of 18,420 employees from three mid-sized IT firms, we compare logistic regression, random forest and XGBoost. XGBoost achieved the best performance with an AUC of 0.89 and a recall of 0.81 on the hold-out set. SHAP analysis shows that months since last promotion, commute distance and manager change frequency are the strongest predictors. We translate these drivers into a retention playbook for HR managers.
+
+1. Introduction
+Attrition in Indian IT services rose sharply after 2021, with annual rates above 20 percent in several large firms. However, most predictive attrition studies rely on the public IBM HR dataset, which is synthetic and small. Little is known about how well attrition models generalise to real Indian workforce data. In addition, black-box predictions are rarely adopted by HR managers because they cannot explain why an employee is at risk. This study addresses both gaps. Our objective is to build an accurate and explainable early-warning model and to examine which organisational drivers matter most.
+
+2. Literature Review
+Prior work has used logistic regression and decision trees to model turnover intention. Recent studies apply ensemble learning, but few report explanations at the individual level. Explainable AI methods such as SHAP have been proposed to make HR analytics transparent and fair.
+
+3. Methodology
+We frame attrition as a binary classification problem with a six-month prediction horizon. Three models were trained: logistic regression, random forest and XGBoost. Hyper-parameters were tuned with five-fold stratified cross-validation. Class imbalance was handled using SMOTE on the training folds only. Model explanations were produced with SHAP values, and a fairness audit compared false positive rates across gender groups.
+
+4. Data
+The dataset contains 18,420 employee records collected between 2019 and 2023 from three IT services firms in Bengaluru, Hyderabad and Pune. Each record includes 37 features covering demographics, compensation, performance ratings, promotion history, commute distance and manager changes. The voluntary attrition rate in the sample is 17.6 percent.
+
+5. Results
+XGBoost outperformed the other models with an AUC of 0.89, precision of 0.72 and recall of 0.81. Random forest achieved an AUC of 0.86 and logistic regression an AUC of 0.78. SHAP analysis revealed that months since last promotion was the single most important driver, followed by commute distance above 25 kilometres and more than two manager changes in a year. Employees with no promotion for over 30 months were 2.4 times more likely to leave. The fairness audit found a difference of only 1.8 percentage points in false positive rates between men and women.
+
+6. Discussion
+The findings indicate that career progression and managerial stability matter more than compensation in this context. HR managers can use the individual SHAP explanations to plan targeted interventions such as internal mobility offers and stable reporting lines.
+
+7. Limitations
+The data come from only three firms in one industry, which limits generalisability. The model does not capture informal factors such as team climate or personal circumstances.
+
+8. Future Work
+Future research should test the model in other sectors, incorporate engagement survey text using natural language processing, and evaluate the causal effect of the recommended interventions through field experiments.
+
+9. Conclusion
+Explainable gradient boosting offers an accurate and actionable early-warning system for voluntary attrition in Indian IT services.

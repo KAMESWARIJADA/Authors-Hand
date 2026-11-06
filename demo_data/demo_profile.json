@@ -1,0 +1,436 @@
+{
+ "_note": "SYNTHETIC demo researcher for offline demonstration. Not a real person. ORCID 0000-0000-0000-0001 passes the checksum but is not an issued iD.",
+ "orcid": "0000-0000-0000-0001",
+ "name": "A. Demo",
+ "biography": "Faculty member in data sciences working on explainable machine learning for HR, banking and education, and on responsible generative AI.",
+ "keywords": [
+  "HR analytics",
+  "explainable AI",
+  "generative AI",
+  "banking analytics"
+ ],
+ "researchgate": "",
+ "urls": [
+  {
+   "name": "Institutional page",
+   "url": "https://example.org/faculty/a-demo"
+  }
+ ],
+ "employments": [
+  {
+   "organization": "Demo Institute of Management",
+   "role": "Assistant Professor",
+   "start": 2022
+  },
+  {
+   "organization": "Demo Bank Ltd",
+   "role": "Technical Analyst",
+   "start": 2014
+  }
+ ],
+ "institutions": [
+  "Demo Institute of Management"
+ ],
+ "works": [
+  {
+   "id": "demo:w1",
+   "title": "Predicting Voluntary Employee Attrition with Explainable Gradient Boosting: Evidence from Indian IT Services",
+   "authors": [
+    "R. Menon",
+    "S. Iyer",
+    "A. Demo"
+   ],
+   "year": 2025,
+   "venue": "Journal of Business Research",
+   "citations": 14,
+   "doi": "10.0000/demo.2025.100",
+   "abstract": "Uses XGBoost and SHAP on HR records of 18,420 IT employees to predict voluntary attrition and explain drivers such as promotion delay and manager changes.",
+   "oa_pdf": "https://example.org/demo/w1.pdf",
+   "url": "",
+   "source": "OpenAlex",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w2",
+   "title": "Generative AI Copilots and Analyst Productivity in Retail Banking: A Field Experiment",
+   "authors": [
+    "K. Rao",
+    "A. Demo",
+    "P. Sharma"
+   ],
+   "year": 2026,
+   "venue": "Information Systems Research",
+   "citations": 6,
+   "doi": "10.0000/demo.2026.101",
+   "abstract": "Randomised field experiment showing an LLM copilot reduced analyst task time by 31 percent with over-reliance among senior analysts.",
+   "oa_pdf": "https://example.org/demo/w2.pdf",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w3",
+   "title": "Learning Analytics for Early Identification of At-Risk Postgraduate Management Students",
+   "authors": [
+    "N. Reddy",
+    "A. Demo"
+   ],
+   "year": 2024,
+   "venue": "Computers & Education",
+   "citations": 21,
+   "doi": "10.0000/demo.2024.102",
+   "abstract": "Early-warning model using LMS activity and attendance to flag at-risk PGDM students and trigger mentoring.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w4",
+   "title": "Explainable Credit Scoring for Thin-File Borrowers Using Alternative Data",
+   "authors": [
+    "V. Krishnan",
+    "A. Demo",
+    "T. Bose"
+   ],
+   "year": 2024,
+   "venue": "Finance Research Letters",
+   "citations": 33,
+   "doi": "10.0000/demo.2024.103",
+   "abstract": "LightGBM with utility and UPI data improves credit scoring for thin-file borrowers with counterfactual explanations.",
+   "oa_pdf": "https://example.org/demo/w4.pdf",
+   "url": "",
+   "source": "OpenAlex",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w5",
+   "title": "Customer Churn Prediction in Retail Banking Using Ensemble Learning",
+   "authors": [
+    "A. Demo",
+    "S. Iyer"
+   ],
+   "year": 2018,
+   "venue": "International Journal of Bank Marketing",
+   "citations": 48,
+   "doi": "10.0000/demo.2018.104",
+   "abstract": "Ensemble models predict churn of savings account customers from transaction behaviour.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w6",
+   "title": "Product Analytics for Digital Banking Adoption in Tier-2 Indian Cities",
+   "authors": [
+    "A. Demo"
+   ],
+   "year": 2017,
+   "venue": "Journal of Financial Services Marketing",
+   "citations": 22,
+   "doi": "",
+   "abstract": "Analyses mobile banking feature usage and adoption drivers among customers in tier-2 cities.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w7",
+   "title": "Cross-Sell Propensity Modelling with Gradient Boosting for Credit Cards",
+   "authors": [
+    "A. Demo",
+    "R. Menon"
+   ],
+   "year": 2019,
+   "venue": "Expert Systems with Applications",
+   "citations": 57,
+   "doi": "10.0000/demo.2019.106",
+   "abstract": "Gradient boosting propensity models for credit card cross-sell campaigns in retail banking.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "OpenAlex",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w8",
+   "title": "People Analytics Maturity in Indian Service Firms",
+   "authors": [
+    "A. Demo",
+    "N. Reddy"
+   ],
+   "year": 2020,
+   "venue": "Personnel Review",
+   "citations": 29,
+   "doi": "10.0000/demo.2020.107",
+   "abstract": "Survey of HR leaders assessing people analytics maturity and barriers to adoption.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w9",
+   "title": "Explainable AI for HR Decision Making: A Systematic Review",
+   "authors": [
+    "A. Demo",
+    "S. Iyer",
+    "N. Reddy"
+   ],
+   "year": 2021,
+   "venue": "Human Resource Management Review",
+   "citations": 64,
+   "doi": "10.0000/demo.2021.108",
+   "abstract": "Systematic review of explainable AI methods applied to recruitment, attrition and performance decisions.",
+   "oa_pdf": "https://example.org/demo/w9.pdf",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w10",
+   "title": "Fairness Audits of Attrition Prediction Models",
+   "authors": [
+    "S. Iyer",
+    "A. Demo"
+   ],
+   "year": 2022,
+   "venue": "Journal of Business Ethics",
+   "citations": 19,
+   "doi": "10.0000/demo.2022.109",
+   "abstract": "Evaluates gender and age fairness metrics for machine learning attrition models.",
+   "oa_pdf": "https://example.org/demo/w10.pdf",
+   "url": "",
+   "source": "OpenAlex",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w11",
+   "title": "Large Language Models in Management Education: Opportunities and Risks",
+   "authors": [
+    "A. Demo"
+   ],
+   "year": 2023,
+   "venue": "The International Journal of Management Education",
+   "citations": 41,
+   "doi": "10.0000/demo.2023.110",
+   "abstract": "Discusses classroom use of large language models, academic integrity and assessment redesign.",
+   "oa_pdf": "https://example.org/demo/w11.pdf",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w12",
+   "title": "Prompt Engineering Skills of Business Students: An Exploratory Study",
+   "authors": [
+    "A. Demo",
+    "N. Reddy"
+   ],
+   "year": 2024,
+   "venue": "Journal of Education for Business",
+   "citations": 9,
+   "doi": "10.0000/demo.2024.111",
+   "abstract": "Measures prompt engineering competence of MBA students and its link to task performance with generative AI.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w13",
+   "title": "Automation Bias in AI-Assisted Credit Decisions",
+   "authors": [
+    "P. Sharma",
+    "A. Demo"
+   ],
+   "year": 2025,
+   "venue": "Decision Support Systems",
+   "citations": 7,
+   "doi": "10.0000/demo.2025.112",
+   "abstract": "Experiment on loan officers accepting incorrect AI credit recommendations under time pressure.",
+   "oa_pdf": "https://example.org/demo/w13.pdf",
+   "url": "",
+   "source": "OpenAlex",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w14",
+   "title": "Generative AI Adoption by HR Professionals in India",
+   "authors": [
+    "A. Demo",
+    "K. Rao"
+   ],
+   "year": 2025,
+   "venue": "Personnel Review",
+   "citations": 5,
+   "doi": "10.0000/demo.2025.113",
+   "abstract": "Technology acceptance study of generative AI tools among HR professionals.",
+   "oa_pdf": "",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID",
+    "OpenAlex"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  },
+  {
+   "id": "demo:w15",
+   "title": "Agentic AI Workflows for Academic Research Support",
+   "authors": [
+    "A. Demo"
+   ],
+   "year": 2026,
+   "venue": "",
+   "citations": 1,
+   "doi": "",
+   "abstract": "Position paper on autonomous agents that search, read and summarise scholarly literature.",
+   "oa_pdf": "https://example.org/demo/w15.pdf",
+   "url": "",
+   "source": "ORCID",
+   "sources": [
+    "ORCID"
+   ],
+   "tldr": "",
+   "topics": [],
+   "type": "journal-article"
+  }
+ ],
+ "openalex": {
+  "openalex_id": "A0000000001",
+  "name": "A. Demo",
+  "works_count": 15,
+  "cited_by_count": 376,
+  "h_index": 9,
+  "i10_index": 7,
+  "counts_by_year": [
+   {
+    "year": 2018,
+    "cited_by_count": 6,
+    "works_count": 1
+   },
+   {
+    "year": 2019,
+    "cited_by_count": 19,
+    "works_count": 1
+   },
+   {
+    "year": 2020,
+    "cited_by_count": 31,
+    "works_count": 1
+   },
+   {
+    "year": 2021,
+    "cited_by_count": 44,
+    "works_count": 1
+   },
+   {
+    "year": 2022,
+    "cited_by_count": 58,
+    "works_count": 1
+   },
+   {
+    "year": 2023,
+    "cited_by_count": 71,
+    "works_count": 1
+   },
+   {
+    "year": 2024,
+    "cited_by_count": 92,
+    "works_count": 3
+   },
+   {
+    "year": 2025,
+    "cited_by_count": 118,
+    "works_count": 4
+   },
+   {
+    "year": 2026,
+    "cited_by_count": 97,
+    "works_count": 2
+   }
+  ],
+  "topics": [
+   "Human resource analytics",
+   "Explainable AI",
+   "Banking analytics",
+   "Generative AI in education"
+  ]
+ },
+ "warnings": []
+}
